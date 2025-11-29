@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: row;
+ 
+    min-height: 95vh;
+    flex-wrap:wrap;
+    
+}
+
+.container div{
+    min-width: 25%;
+    min-height: 25%;
+    background-color: aqua;
+    border-color: black;
+    
+    
+}
+
+div:hover{
+
+    background-color: black;
+}
+
+nav {
+    min-width: 100%;
+    min-height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
