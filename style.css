@@ -17,6 +17,8 @@
 }
 
 .hovered{
+    min-width: 25%;
+    min-height: 25%;
 
     background-color: black;
 }

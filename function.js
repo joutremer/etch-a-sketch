@@ -26,6 +26,6 @@ clear.addEventListener("click", ()=> {
 
 container.addEventListener("mouseover", (e)=>{
     if (e.target.classList.contains("square")){
-        e.target.classList.add("hovered");
+        e.target.classList.replace("square","hovered");
     }
 });
