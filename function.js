@@ -21,5 +21,11 @@ submit.addEventListener("click", ()=> {
 });
 
 clear.addEventListener("click", ()=> {
-    container.innerHTML=''
+    container.innerHTML='';
+});
+
+container.addEventListener("mouseover", (e)=>{
+    if (e.target.classList.contains("square")){
+        e.target.classList.add("hovered");
+    }
 });
