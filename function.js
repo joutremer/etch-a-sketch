@@ -7,6 +7,7 @@ const container = document.querySelector(".container");
 
 const input = document.querySelector(".input");
 const submit = document.querySelector(".submit");
+const clear = document.querySelector(".clear");
 
 submit.addEventListener("click", ()=> {
     const inputValue = input.value;
@@ -15,7 +16,10 @@ submit.addEventListener("click", ()=> {
         const square = document.createElement("div");
         square.classList.add("square");
         container.appendChild(square);
-        
     }
 
+});
+
+clear.addEventListener("click", ()=> {
+    container.innerHTML=''
 });
